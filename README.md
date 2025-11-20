@@ -4,3 +4,6 @@ Day 1:
     
       ToDoList ==> Building a  simple todoList app where we learn   about map method in list , why we use keys in list and useState hooks  how useState handles a state in React and conditional rendering in React. 
       => Built todo-list now will work on debouncing for performance optimization.
+
+Day 2:  
+     Accordian ==> Built an accoridian learnt about useState hook and also used conditinal rendering.

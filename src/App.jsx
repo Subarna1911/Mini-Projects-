@@ -2,6 +2,7 @@ import React from 'react'
 import Counter from './components/Counter'
 import ToDoList from './components/ToDoList'
 import Accordian from './components/Accordian'
+import StopWatch  from './components/StopWatch'
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Counter/>
       <ToDoList/>
       <Accordian/>
+      <StopWatch/>
     </div>
   )
 }
