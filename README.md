@@ -8,5 +8,7 @@ Day 1:
 Day 2:  
      Accordian ==> Built an accoridian learnt about useState hook and also used conditinal rendering.
 
-     stopWatch ==> stopWatch ap is built , used iuseRef hook to store previous values and setInterval asnchronus or timer function to start timer and useState is used to handle states and useEffect hook is being used to clearInterval or to unmount from the browser"
+     stopWatch ==> stopWatch ap is built , used iuseRef hook to store previous values and setInterval asnchronus or timer function to start timer and useState is used to handle states and useEffect hook is being used to clearInterval or to unmount from the browser".
+
+     TabSwitcher ===> in this TabSwitcher app or functionalities where  i have used useState and conditional rendering and mapping through each element of an array. Used TabSwitching functionalities.
      
