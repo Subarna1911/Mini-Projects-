@@ -3,7 +3,6 @@ import React, { useState, useEffect } from "react";
 const ToDoList = () => {
   const [inputValues, setInputValues] = useState("");
   const [items, setItems] = useState([]);
-
   // Load from localStorage (runs ONCE)
   useEffect(() => {
     const saved = localStorage.getItem("todo-items");
@@ -55,7 +54,6 @@ const ToDoList = () => {
             onChange={handleChange}
             onKeyDown={handleKeyDown}
           />
-
           <button
             className="bg-black text-white px-4 py-3 rounded-full"
             onClick={handleClick}
@@ -84,5 +82,4 @@ const ToDoList = () => {
     </div>
   );
 };
-
 export default ToDoList;
