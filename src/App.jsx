@@ -5,6 +5,7 @@ import Accordian from './components/Accordian'
 import StopWatch  from './components/StopWatch'
 import SwitchTab from './components/SwitchTab'
 import Contact from './components/Contact'
+import Forms from './components/Forms'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <StopWatch/>
       <SwitchTab/>
       <Contact/>
+      <Forms/>
     </div>
   )
 }
