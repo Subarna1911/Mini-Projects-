@@ -12,7 +12,6 @@ const ToDoList = () => {
   const handleClick = ()=>{
     setItems(prevList=> [...prevList, inputValues]);
     setInputValues("");
-
   }
 
   const removeList = (index)=>{
@@ -20,12 +19,11 @@ const ToDoList = () => {
   }
 
   const handleKeyDown = (e) => {
-
+    
     if(e.key === "Enter"){
         handleClick();
     }
   }
-
 
   return (
     <div className="max-w-screen h-full p-20">
@@ -38,16 +36,14 @@ const ToDoList = () => {
             value={inputValues}
             onChange={handleChange}
              onKeyDown={handleKeyDown}
-            
           />
+
           <button className="bg-black text-white px-4 py-3 rounded-full w-50 inline-block cursor-pointer" onClick={handleClick}>Add</button>
         </div>
-
         <div>
             <ul className="space-x-2 w-full flex items-center sm:flex-wrap ">
                 {items.map((item , index)=>{
                     return <li className="bg-green-600 rounded-full py-2 px-3 flex gap-3 text-white" key={index}>{item} <button onClick={()=>removeList(index)} className="text-red-700 font-bold  bg-white rounded-full px-2 y-2 cursor-pointer">X</button> </li>
-                
                 })}
             </ul>
         </div>
