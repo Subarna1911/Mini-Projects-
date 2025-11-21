@@ -10,18 +10,24 @@ import Home from './pages/Home';
 import Connect from './pages/Connect'
 import About from './pages/About'
 import Header from './components/Header'
+import DarkMode  from './components/DarkMode'
+import { ThemeProvider } from './contextApi/ThemeContext'
+
 
 
 const App = () => {
   return (
-    <div>
-      <Header/>
-      
+    <ThemeProvider>
+       <div>
+        <DarkMode/>
+        <Header/>
+   
       <Routes>
         <Route path='/' element        = {<Home/>}/>
         <Route path ='/about' element   = {<About/>}/>
         <Route path = '/contact' element = {<Connect/>} />
       </Routes>
+  
       <Counter/>
       <ToDoList/>
       <Accordian/>
@@ -30,6 +36,8 @@ const App = () => {
       <Contact/>
 
     </div>
+    </ThemeProvider>
+   
   )
 }
 
