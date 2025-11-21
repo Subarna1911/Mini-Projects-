@@ -13,11 +13,13 @@ import Header from './components/Header'
 import DarkMode  from './components/DarkMode'
 import { ThemeProvider } from './contextApi/ThemeContext'
 import Body from './components/Body'
-
-
+import { Provider } from 'react-redux'
+import appStore from './store/appStore'
 
 const App = () => {
   return (
+
+    <Provider store = {appStore} >
 
     <ThemeProvider>
        <div>
@@ -38,9 +40,10 @@ const App = () => {
       <Contact/>
 
      <Body/>
-     
+
     </div>
     </ThemeProvider>
+    </Provider>
 
    
    
