@@ -15,11 +15,13 @@ import { ThemeProvider } from './contextApi/ThemeContext'
 import Body from './components/Body'
 import { Provider } from 'react-redux'
 import appStore from './store/appStore'
+import BlogContent from './components/BlogContent'
 
 const App = () => {
   return (
 
     <Provider store = {appStore} >
+    
 
     <ThemeProvider>
        <div>
@@ -40,7 +42,7 @@ const App = () => {
       <Contact/>
 
      <Body/>
-
+      <BlogContent/>
     </div>
     </ThemeProvider>
     </Provider>
