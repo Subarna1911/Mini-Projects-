@@ -12,16 +12,18 @@ import About from './pages/About'
 import Header from './components/Header'
 import DarkMode  from './components/DarkMode'
 import { ThemeProvider } from './contextApi/ThemeContext'
+import Body from './components/Body'
 
 
 
 const App = () => {
   return (
+
     <ThemeProvider>
        <div>
         <DarkMode/>
         <Header/>
-   
+      
       <Routes>
         <Route path='/' element        = {<Home/>}/>
         <Route path ='/about' element   = {<About/>}/>
@@ -35,8 +37,12 @@ const App = () => {
       <SwitchTab/>
       <Contact/>
 
+     <Body/>
+     
     </div>
     </ThemeProvider>
+
+   
    
   )
 }
