@@ -5,18 +5,30 @@ import Accordian from './components/Accordian'
 import StopWatch  from './components/StopWatch'
 import SwitchTab from './components/SwitchTab'
 import Contact from './components/Contact'
-import Forms from './components/Forms'
+import {Routes, Route} from 'react-router-dom';
+import Home from './pages/Home';
+import Connect from './pages/Connect'
+import About from './pages/About'
+import Header from './components/Header'
+
 
 const App = () => {
   return (
     <div>
+      <Header/>
+      
+      <Routes>
+        <Route path='/' element        = {<Home/>}/>
+        <Route path ='/about' element   = {<About/>}/>
+        <Route path = '/contact' element = {<Connect/>} />
+      </Routes>
       <Counter/>
       <ToDoList/>
       <Accordian/>
       <StopWatch/>
       <SwitchTab/>
       <Contact/>
-      <Forms/>
+
     </div>
   )
 }
