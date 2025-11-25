@@ -15,4 +15,4 @@ Day 2:
       Sidebar  ==> Sidebar functionality is adde by toggleing menu
       Navbr    ==> Navbar functionality is created using simple BrowserRouter method
       DarMode  ==> DarkMode functionality is added. To toggle between two themes.
-     
+      BlogPost ===> BlogPost to learnedt about fetching data and mapping through the list.

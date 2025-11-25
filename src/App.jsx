@@ -16,6 +16,7 @@ import Body from './components/Body'
 import { Provider } from 'react-redux'
 import appStore from './store/appStore'
 import BlogContent from './components/BlogContent'
+import Authentication from './components/Authentication'
 
 const App = () => {
   return (
@@ -33,7 +34,7 @@ const App = () => {
         <Route path ='/about' element   = {<About/>}/>
         <Route path = '/contact' element = {<Connect/>} />
       </Routes>
-  
+      <Authentication/>
       <Counter/>
       <ToDoList/>
       <Accordian/>
