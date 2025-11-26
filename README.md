@@ -16,3 +16,6 @@ Day 2:
       Navbr    ==> Navbar functionality is created using simple BrowserRouter method
       DarMode  ==> DarkMode functionality is added. To toggle between two themes.
       BlogPost ===> BlogPost to learnedt about fetching data and mapping through the list.
+
+      Day 3 : 
+          Counter ===> Created Counter to store previous and current values using useEffect, useRef and useState hook.
