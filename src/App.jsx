@@ -18,6 +18,7 @@ import appStore from './store/appStore'
 import BlogContent from './components/BlogContent'
 import Authentication from './components/Authentication'
 import CounterStore from './components/CounterStore'
+import ProgressBar from './components/ProgressBar'
 
 const App = () => {
   return (
@@ -35,6 +36,7 @@ const App = () => {
         <Route path ='/about' element   = {<About/>}/>
         <Route path = '/contact' element = {<Connect/>} />
       </Routes>
+      <ProgressBar/>
       <CounterStore/>
       <Authentication/>
       <Counter/>
