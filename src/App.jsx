@@ -19,6 +19,7 @@ import BlogContent from './components/BlogContent'
 import Authentication from './components/Authentication'
 import CounterStore from './components/CounterStore'
 import ProgressBar from './components/ProgressBar'
+import GuessTheNumber from './components/GuessTheNumber'
 
 const App = () => {
   return (
@@ -37,6 +38,7 @@ const App = () => {
         <Route path = '/contact' element = {<Connect/>} />
       </Routes>
       <ProgressBar/>
+      <GuessTheNumber/>
       <CounterStore/>
       <Authentication/>
       <Counter/>
