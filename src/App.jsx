@@ -22,6 +22,7 @@ import ProgressBar from './components/ProgressBar'
 import GuessTheNumber from './components/GuessTheNumber'
 import CounterApp from './components/CounterApp'
 import Progress from './components/Progress'
+import ValidationForm from './components/ValidationForm'
 
 const App = () => {
   return (
@@ -51,6 +52,7 @@ const App = () => {
       <StopWatch/>
       <SwitchTab/>
       <Contact/>
+      <ValidationForm/>
 
      <Body/>
       <BlogContent/>
