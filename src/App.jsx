@@ -21,6 +21,7 @@ import CounterStore from './components/CounterStore'
 import ProgressBar from './components/ProgressBar'
 import GuessTheNumber from './components/GuessTheNumber'
 import CounterApp from './components/CounterApp'
+import Progress from './components/Progress'
 
 const App = () => {
   return (
@@ -39,6 +40,7 @@ const App = () => {
         <Route path = '/contact' element = {<Connect/>} />
       </Routes>
       <ProgressBar/>
+      <Progress/>
       <CounterApp/>
       <GuessTheNumber/>
       <CounterStore/>
