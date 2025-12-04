@@ -15,7 +15,13 @@ Day 2:
       Sidebar  ==> Sidebar functionality is adde by toggleing menu
       Navbr    ==> Navbar functionality is created using simple BrowserRouter method
       DarMode  ==> DarkMode functionality is added. To toggle between two themes.
-      BlogPost ===> BlogPost to learnedt about fetching data and mapping through the list.
+      BlogPost ===> BlogPost to learned about fetching data and mapping through the list.
 
-      Day 3 : 
+     
+Day 3 : 
           Counter ===> Created Counter to store previous and current values using useEffect, useRef and useState hook.
+
+Day 4: ProgressBar
+Day 5: Guess the number 
+Day 6: Asterisk validation form
+Day 7: usePrevioudHook : To build Custom hook and use for the component. custom hook is mainly used to  seperate the data logic from its ui logic , resuable hook.
