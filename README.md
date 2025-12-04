@@ -22,6 +22,9 @@ Day 3 :
           Counter ===> Created Counter to store previous and current values using useEffect, useRef and useState hook.
 
 Day 4: ProgressBar
+
 Day 5: Guess the number 
+
 Day 6: Asterisk validation form
+
 Day 7: usePrevioudHook : To build Custom hook and use for the component. custom hook is mainly used to  seperate the data logic from its ui logic , resuable hook.
