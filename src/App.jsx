@@ -23,6 +23,7 @@ import GuessTheNumber from './components/GuessTheNumber'
 import CounterApp from './components/CounterApp'
 import Progress from './components/Progress'
 import ValidationForm from './components/ValidationForm'
+import NumberChecker from './components/NumberChecker'
 
 const App = () => {
   return (
@@ -40,6 +41,7 @@ const App = () => {
         <Route path ='/about' element   = {<About/>}/>
         <Route path = '/contact' element = {<Connect/>} />
       </Routes>
+     < NumberChecker/>
       <ProgressBar/>
       <Progress/>
       <CounterApp/>
