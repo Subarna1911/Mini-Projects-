@@ -24,6 +24,7 @@ import CounterApp from './components/CounterApp'
 import Progress from './components/Progress'
 import ValidationForm from './components/ValidationForm'
 import NumberChecker from './components/NumberChecker'
+import TogglePassword from './components/TogglePassword'
 
 const App = () => {
   return (
@@ -42,6 +43,7 @@ const App = () => {
         <Route path = '/contact' element = {<Connect/>} />
       </Routes>
      < NumberChecker/>
+     <TogglePassword/>
       <ProgressBar/>
       <Progress/>
       <CounterApp/>
